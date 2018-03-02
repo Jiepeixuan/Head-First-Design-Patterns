@@ -100,6 +100,3 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
-
-src/com/crab/design/patterns/ch01_Strategy/
-src/com/crab/design/patterns/ch02_Observer/
