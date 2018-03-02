@@ -1,7 +1,7 @@
-package com.crab.design.patterns.ch01_Strategy;
+package com.crab.design.patterns.ch01_Strategy.duck;
 
-import com.crab.design.patterns.ch01_Strategy.actionImpl.FlyNoWay;
-import com.crab.design.patterns.ch01_Strategy.actionImpl.Quack;
+import com.crab.design.patterns.ch01_Strategy.action.impl.FlyNoWay;
+import com.crab.design.patterns.ch01_Strategy.action.impl.Quack;
 
 /**
  * Description:
@@ -9,7 +9,7 @@ import com.crab.design.patterns.ch01_Strategy.actionImpl.Quack;
  * Time:            2018/3/2 下午3:14
  */
 
-public class ModelDuck extends Duck{
+public class ModelDuck extends Duck {
 
     public ModelDuck(){
         flyBehavior = new FlyNoWay();

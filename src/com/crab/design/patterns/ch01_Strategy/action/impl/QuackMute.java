@@ -1,6 +1,6 @@
-package com.crab.design.patterns.ch01_Strategy.actionImpl;
+package com.crab.design.patterns.ch01_Strategy.action.impl;
 
-import com.crab.design.patterns.ch01_Strategy.QuackBehavior;
+import com.crab.design.patterns.ch01_Strategy.action.QuackBehavior;
 
 /**
  * Description:
@@ -8,7 +8,7 @@ import com.crab.design.patterns.ch01_Strategy.QuackBehavior;
  * Time:            2018/3/2 下午2:57
  */
 
-public class QuackMute implements QuackBehavior{
+public class QuackMute implements QuackBehavior {
 
     @Override
     public void quack() {

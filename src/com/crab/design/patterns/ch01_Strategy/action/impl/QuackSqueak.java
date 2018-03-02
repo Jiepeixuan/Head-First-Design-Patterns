@@ -1,6 +1,6 @@
-package com.crab.design.patterns.ch01_Strategy.actionImpl;
+package com.crab.design.patterns.ch01_Strategy.action.impl;
 
-import com.crab.design.patterns.ch01_Strategy.QuackBehavior;
+import com.crab.design.patterns.ch01_Strategy.action.QuackBehavior;
 
 /**
  * Description:

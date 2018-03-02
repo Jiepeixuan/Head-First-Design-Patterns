@@ -1,4 +1,7 @@
-package com.crab.design.patterns.ch01_Strategy;
+package com.crab.design.patterns.ch01_Strategy.duck;
+
+import com.crab.design.patterns.ch01_Strategy.action.FlyBehavior;
+import com.crab.design.patterns.ch01_Strategy.action.QuackBehavior;
 
 /**
  * Description:     Duck类

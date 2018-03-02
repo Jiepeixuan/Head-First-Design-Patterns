@@ -1,7 +1,7 @@
-package com.crab.design.patterns.ch01_Strategy;
+package com.crab.design.patterns.ch01_Strategy.duck;
 
-import com.crab.design.patterns.ch01_Strategy.actionImpl.FlyWithWings;
-import com.crab.design.patterns.ch01_Strategy.actionImpl.Quack;
+import com.crab.design.patterns.ch01_Strategy.action.impl.FlyWithWings;
+import com.crab.design.patterns.ch01_Strategy.action.impl.Quack;
 
 /**
  * Description:
@@ -9,7 +9,7 @@ import com.crab.design.patterns.ch01_Strategy.actionImpl.Quack;
  * Time:            2018/3/2 下午3:03
  */
 
-public class MallardDuck extends Duck{
+public class MallardDuck extends Duck {
 
     public MallardDuck(){
         quackBehavior = new Quack();

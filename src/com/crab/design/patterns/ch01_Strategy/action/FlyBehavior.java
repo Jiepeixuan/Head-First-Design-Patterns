@@ -1,4 +1,4 @@
-package com.crab.design.patterns.ch01_Strategy;
+package com.crab.design.patterns.ch01_Strategy.action;
 
 /**
  * Description:     所有的飞行行为类必须实现的接口
