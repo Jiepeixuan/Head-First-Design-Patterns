@@ -2,9 +2,8 @@ package com.thread;
 
 /**
  * Description:
- * Author:          SuperCrab
- * Time:            2020-05-09 09:32
+ * Author:          crab
+ * Time:            2020/5/12 15:18
  */
-
-class test {
+public class test {
 }
